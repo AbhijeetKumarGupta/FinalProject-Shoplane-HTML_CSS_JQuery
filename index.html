@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <title>SHOPLANE</title>
+  </head>
+  <body>
+    <header>
+      <div id="navMenu">
+        <div id="productBrowsingMenu">
+          <a id="logo" href="#"><span>SHOP</span>LANE</a>
+          <a class="pbMenuOption" href="#clothing-section">Clothing</a>
+          <a class="pbMenuOption" href="#accessory-section">Accessories</a>
+        </div>
+        <div id="productSearchinggMenu">
+          <div id="search-wrapper">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <input
+              id="search-box"
+              type="text"
+              name="search"
+              placeholder="Search for Clothing and Accessories"
+            />
+          </div>
+        </div>
+        <div id="userDataMenu">
+          <div id="cart-wrapper">
+            <p id="cart-count">0</p>
+            <a href="/checkout.html"
+              ><i class="fas fa-shopping-cart" aria-hidden="true"></i
+            ></a>
+          </div>
+          <img src="./images/user.jpg" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="carousal">
+        <section>
+          <div class="center">
+            <img src="./images/1.png" />
+            <img src="./images/2.png" />
+            <img src="./images/3.png" />
+            <img src="./images/4.png" />
+          </div>
+        </section>
+      </div>
+      <div id="products">
+        <section id="clothing-section">
+          <h2 id="clothingHeading">Clothing for Men and Women</h2>
+          <div id="clothingDiv"></div>
+        </section>
+        <section id="accessory-section">
+          <h2 id="accessoriesHeading">Accessories for Men and Women</h2>
+          <div id="accessoriesDiv"></div>
+        </section>
+      </div>
+    </main>
+    <img id="EPLogo" src="./images/logo.png" alt="EdYoda Projects Logo" />
+    <footer>
+      <div>
+        <p class="footer-heading">Online Store</p>
+        <a href="/" class="footer-link">Men Clothing</a>
+        <a href="/" class="footer-link">Women Clothing</a>
+        <a href="/" class="footer-link">Men Accessories</a>
+        <a href="/" class="footer-link">Women Accessories</a>
+      </div>
+      <div>
+        <p class="footer-heading">Helpful Links</p>
+        <a href="/" class="footer-link">Home</a>
+        <a href="/" class="footer-link">About</a>
+        <a href="/" class="footer-link">Contact</a>
+      </div>
+      <div>
+        <p class="footer-heading">Partners</p>
+        <a href="/" class="footer-link">Zara</a>
+        <a href="/" class="footer-link">Pantaloons</a>
+        <a href="/" class="footer-link">Levis</a>
+        <a href="/" class="footer-link">UCB</a>
+        <a href="/" class="footer-link">+ Many More</a>
+      </div>
+      <div>
+        <p class="footer-heading">Address</p>
+        <p href="/" class="footer-link">Building 101</p>
+        <p href="/" class="footer-link">Central Avenue</p>
+        <p href="/" class="footer-link">LA - 902722</p>
+        <p href="/" class="footer-link">United States</p>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+  </body>
+</html>
