@@ -245,9 +245,66 @@ footer > div {
   font-size: 14px;
   opacity: 0.8;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
+  #navMenu {
+    height: 52px;
+  }
+  #logo {
+    font-size: 15px;
+    margin-right: 0px;
+  }
+
+  .pbMenuOption {
+    margin-left: 3%;
+    font-size: 13px;
+  }
+  #search-wrapper {
+    display: none;
+  }
+
+  #userDataMenu {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #cart-wrapper {
+    margin-right: 20px;
+  }
+
+  #userDataMenu img {
+    width: 40px;
+    height: 50%;
+  }
   .card {
     width: 35%;
     min-width: 115px;
+  }
+
+  .slick-slide {
+    width: 100%;
+    margin: 0 40px;
+  }
+
+  #clothingHeading {
+    margin-left: 13%;
+    font-size: 28px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  #accessoriesHeading {
+    margin-top: 100px;
+    margin-left: 13px;
+    font-size: 28px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+  footer > div {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
   }
 }
