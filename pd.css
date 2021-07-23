@@ -263,3 +263,64 @@ footer > div {
   font-size: 14px;
   opacity: 0.8;
 }
+
+@media screen and (max-width: 500px) {
+  #navMenu {
+    padding: 16px 4%;
+    height: 52px;
+  }
+  #logo {
+    font-size: 15px;
+    margin-right: 0px;
+  }
+
+  .pbMenuOption {
+    margin-left: 3%;
+    font-size: 13px;
+  }
+  #search-wrapper {
+    display: none;
+  }
+
+  #userDataMenu {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #cart-wrapper {
+    margin-right: 20px;
+  }
+
+  #userDataMenu img {
+    width: 40px;
+    height: 50%;
+  }
+
+  #mainDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 8%;
+    margin-top: 70px;
+    align-items: center;
+  }
+  #name {
+    font-size: 30px;
+  }
+
+  #imageLargeDiv {
+    width: 70%;
+  }
+
+  #detailsDiv {
+    padding-left: 0px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+  footer > div {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+}
